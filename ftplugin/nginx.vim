@@ -13,4 +13,4 @@ let b:did_ftplugin = 1
 
 let b:undo_ftplugin = "setl commentstring<"
 
-setlocal commentstring=#\ %s
+setlocal comments=# commentstring=#\ %s formatoptions-=t formatoptions+=croql
